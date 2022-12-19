@@ -1,3 +1,9 @@
+    #include<iostream>
+    using namespace std;
+    class employee {
+        public:
+        double salary, time;
+        double bonus;
     void getData(){
         cout<<"Enter your salary:";
         cin>>salary;
@@ -15,3 +21,9 @@
         }
     }
 };
+int main(){
+    employee ep;
+    ep. getData();
+    ep. calcBonus();
+    return 0;
+}
